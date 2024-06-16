@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width:100%;
+    background-color: aqua;
+    overflow: hidden;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blueviolet;
+    text-decoration: underline;
+}
+.frame{
+    height: 300px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 500px;
+    background-color: yellow;
+    text-align: center;
+}
+.output{
+    height:70%;
+    width:40%;
+    margin-top:40px;
+    background-color: red;
+    margin-left: 35%;    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+.button1{
+    height: 40px;
+    width:80px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+    color:white;
+    font-size: 20px;
+}
+.button1:hover{
+    color: aqua;
+    opacity: 0.7;
+}
